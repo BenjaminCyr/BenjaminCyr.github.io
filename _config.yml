@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Benjamin Andrew Cyr"
   avatar           : "assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. Student at the University of Michigan. Security Researcher for Embedded Systems"
+  bio              : "Ph.D. student at the University of Michigan. Researching the security of sensors used in embedded systems."
   location         : "Ann Arbor, Michigan, USA"
   email            : #"bencyr@umich.edu"
   links:
@@ -222,8 +222,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
