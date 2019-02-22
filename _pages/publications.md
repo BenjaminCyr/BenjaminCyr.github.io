@@ -6,9 +6,6 @@ redirect from:
     - /publications/
     - /publications.html
 ---
-
-Here is a list of the publications I have worked on.
-
 ## 2019
 
 * ### Low-Cost and Secure Firmware Obfuscation Method for Protecting Electronic Systems from Cloning
