@@ -6,4 +6,5 @@ redirect from:
     - /cv.html
 ---
 
-This is my CV page.
+Here is a link to my Curriculum Vitae: [CV](./404.html){:target="_blank"}
+
