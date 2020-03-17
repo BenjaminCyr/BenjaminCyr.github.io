@@ -17,17 +17,17 @@ redirect from:
     Benjamin Cyr, Jubayer Mahmod, Ujjwal Guin - IEEE Internet of Things Journal, 2019  
     <https://ieeexplore.ieee.org/abstract/document/8598922>{:target="_blank"}
 
-
+* ### Sampling for Data Freshness Optimization: Non-linear Age Functions
+    Yin Sun and Benjamin Cyr -- Journal of Communications and Networks, vol. 21, no. 3, pp. 204-219, June 2019
+    <https://ieeexplore.ieee.org/document/8764465>{:target="_blank"}
 
 ## 2018
-
-* ### Sampling for Data Freshness Optimization: Non-linear Age Functions
-    Yin Sun, Benjamin Cyr, 2018  
-    <https://arxiv.org/pdf/1812.07241>{:target="_blank"}
 
 * ### Information Aging through Queues: A Mutual Information Perspective
     Yin Sun, Benjamin Cyr - IEEE SPAWC Conference -- Special Session on the Age of Information, 2018  
     <https://ieeexplore.ieee.org/iel7/8424401/8445765/08445873.pdf>{:target="_blank"}
+
+
 
 
 
