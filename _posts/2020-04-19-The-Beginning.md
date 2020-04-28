@@ -1,4 +1,5 @@
 ---
+classes: wide
 title: "The Beginning"
 categories:
     - Life
