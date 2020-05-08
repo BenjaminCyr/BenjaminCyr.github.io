@@ -1,4 +1,5 @@
 ---
+classes: wide
 permalink: /
 title: "About Me"
 redirect from:
