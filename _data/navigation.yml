@@ -8,8 +8,8 @@ main:
     url: /projects/
   - title: "CV"
     url: /assets/files/ResumeCyrJan2020.pdf
-  #- title: "Blog Posts"
-  #  url: /categories/
+  - title: "Blog Posts"
+    url: /categories/#research
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
