@@ -9,12 +9,6 @@ tags:
 bibliography: laser.bib
 
 ---
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
-## Light-Based Signal Injection
-
 
 Some of my recent works on LiDAR[^1] and Light Commands[^2] have shown that different sensors are vulnerable to light-based signal injection. By modulating a laser with an external signal, whether that be a digital trigger sequence or an analog signal to change the intensity, these sensors can output data that does not represent the environment. In some systems, this can have consequences that can cause system failure or user exploitation. I'm seeking to prevent attacks like these, and to accomplish this, I'll be looking in depth at the physics of these sensors. I will start by looking at the Photoelectric Effect.
 
@@ -62,4 +56,8 @@ In order to the the photoelectric effect in silicon, ultraviolet radiation or hi
 [^5]: M. Planck, “Ueber das Gesetz der Energieverteilung im Normalspectrum,” Annalen der Physik, vol. 309, no. 3, pp. 553–563, 1901, doi: 10.1002/andp.19013090310.
 
 [^6]: A. Novikov, “Experimental measurement of work function in doped silicon surfaces,” Solid-State Electronics, vol. 54, no. 1, pp. 8–13, Jan. 2010, doi: 10.1016/j.sse.2009.09.005.
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
