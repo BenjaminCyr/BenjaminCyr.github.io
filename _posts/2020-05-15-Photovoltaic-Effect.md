@@ -6,13 +6,12 @@ categories:
 tags:
     - Light Injection
     - Physics
-image: "/assets/images/umich_logo.png"
-teaser: "/assets/images/umich_logo.png"
+image: "/assets/images/pv_preview.png"
 ---
 
 As I mentioned in my previous post, some of my recent research experience has been focused on light-based injection attacks. The causality of the laser injection attacks on LiDAR[^1][^2][^3] are fairly straightforward, as the LiDAR devices are designed to sense light. In the case of Light Commands[^4], the causality is not as clear. I will be investigating different physical phenomena to develop a model of what is going on. The next phenomenon that I want to look at is the photovoltaic effect. 
 
-Most of the information here was found in the literature for solar cell design, the most common use of photovoltaics. In particular, the website [pveducation.org](https://pveducation.org){:target="_blank"} gave a wealth of information on the topic, so go there to learn even more.
+Most of the information here was found in the literature for solar cell design, the most common use of photovoltaics. In particular, the website [pveducation.org](https://pveducation.org){:target="_blank"}[^5] gave a wealth of information on the topic, so go there to learn even more.
 
 ## The Photovoltaic Effect
 Like the photoelectric electric effect, the photovoltaic effect occurs when light causes electrons within a material to change energy states. In the photoelectric effect, high energy photons cause the electrons to break free from the surface of the material altogether, but in the photovoltaic effect, the electrons only gain enough energy to jump from the valence bands to the conduction bands of a crystalline structure. This adds a negatively-charged electron carrier particle to the structure, and leaves behind a positively-charged carrier particle with the hole left behind. In most materials, the random thermal motions of the electrons means that the electron-hole pairs will recombine quickly, giving off light (as reflections) and generating no current. But there is a special case where it becomes more important: Doped Semiconductors.
@@ -22,15 +21,20 @@ Semiconductor technologies have made computers possible, and the fundamental uni
 
 When the P-Type and N-Type materials are joined at a junction, the electrons in the N-Type material combine with the acceptors in the P-Type, and the holes in the P-Type material get filled by the donors in the N-Type. Since this exchange causes the acceptor atoms to become negatively-charged and the donor atoms to become positively-charged, an electric field is generated at the junction in the direction from the N-Type to the P-Type. The electric field drives out any carrier particles out of the junction, keeping the N-Type electrons from diffusing into the P-Type material, and vice versa.
 
+![P-N Junction](/assets/images/pn_junction.png){:width="60%"}
+
 This built-in electric field is the power of the P-N junction. When a voltage is applied in the same direction of the electric field (from N-Type to P-Type, Cathode to Anode) it just strengthens this electric field barrier and resists current flow like and insulator. When a strong enough voltage is applied in the opposite direction (from P-Type to N-Type, from Anode to Cathode) the built-in electric field is overcome and current flows as if it was a normal conductor. 
 
 While this is useful in rectifying AC signals, overvoltage protection, and in transistors, this P-N electric field also enables the photovoltaic effect. As mentioned before, when light hits the silicon material, it causes electrons to jump from the valence band to the conduction band, creating an electron-hole pair. While these electron-hole pairs often recombine, the presence of the electric field makes it much more likely that the electron will drift to the N-Type material, and the holes will drift to the P-Type material. This generates a measureable current. 
+
+![Photocurrent](/assets/images/photocurrent.png){:width="60%"}
+
 
 ## The Mathematical Models
 This current is what might be causing the signal generation in the Light Commands attack, but we need to understand the mathematical relationship between the light and the current being generated.
 
 ### Band Gap
-First, similar to the photoelectric effect, we need to understand at which frequencies of light this effect occurs. The energy required to move an electron from the valence band to the electric band is called the Band Gap ($$E_{g}$$). For silicon at room temperature, the band gap is ~1.11 eV[^5]. From the last post, we know that the energy of a photon is related to its frequency:
+First, similar to the photoelectric effect, we need to understand at which frequencies of light this effect occurs. The energy required to move an electron from the valence band to the electric band is called the Band Gap ($$E_{g}$$). For silicon at room temperature, the band gap is ~1.11 eV[^6]. From the last post, we know that the energy of a photon is related to its frequency:
 
 $$ E = hf $$
 
@@ -54,6 +58,8 @@ $$ [photons/s/m^2] = \frac{[J/s]}{[m^2]} \times [photon/J]$$
 
 ### Diode Photocurrent
 Now that we have the photon flux, we can then move to calculate the photocurrent generated. While the photon flux shows how many will strike the surface of the material, only a percentage of those photons will generate a current. This is because the random motions of the electron-hole pairs and crystalline defects in the junction (especially near the surface) will cause electron-hole pairs to recombine rather than drift the the ends of the junction. The ratio of the number of electrons that generate current to the number of photons that hit the junction is called the Quantum Efficiency ($$\eta_{\lambda}$$), and is a function of wavelength that is inherent to each P-N Junction.
+
+![QE](/assets/images/QuantumEfficiency.png){:width="60%"}
 
 Since we know the fundamental charge ($$e = 1.602{\times}10^{-19} C$$) per electron, we can calculate the current density ($$J_{\phi}$$) generated by the laser to be:
 
@@ -89,7 +95,9 @@ There are still some open questions and future work, however. While this describ
 [^2]: H. Shin, D. Kim, Y. Kwon, and Y. Kim, “Illusion and Dazzle: Adversarial Optical Channel Exploits Against Lidars for Automotive Applications,” in Cryptographic Hardware and Embedded Systems – CHES 2017, Cham, 2017, pp. 445–467, doi: 10.1007/978-3-319-66787-4_22.
 [^3]: Y. Cao et al., “Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving,” in Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security, London, United Kingdom, Nov. 2019, pp. 2267–2281, doi: 10.1145/3319535.3339815.
 [^4]: [lightcommands.com](https://lightcommands.com){:target="_blank"}
-[^5]: C. Kittel, Introduction to solid state physics, 8th ed. Hoboken, NJ: Wiley, 2005. pp. 180.
+
+[^5]: C.B.Honsberg and S.G.Bowden, “Photovoltaics Education Website,” www.pveducation.org, 2019.
+[^6]: C. Kittel, Introduction to solid state physics, 8th ed. Hoboken, NJ: Wiley, 2005. pp. 180.
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">

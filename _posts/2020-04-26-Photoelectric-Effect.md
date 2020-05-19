@@ -7,6 +7,7 @@ tags:
     - Light Injection
     - Physics
 bibliography: laser.bib
+image: pe_preview.png
 
 ---
 
