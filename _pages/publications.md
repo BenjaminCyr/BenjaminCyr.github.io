@@ -7,6 +7,10 @@ redirect from:
     - /publications.html
 ---
 
+## 2020
+
+* ### T. Sugawara, B. Cyr, S. Rampazzi, D. Genkin, and K. Fu, “Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems,” 2020, pp. 2631–2648, Accessed: Aug. 24, 2020. [Online]. Available: https://www.usenix.org/conference/usenixsecurity20/presentation/sugawara.
+
 ## 2019
 
 * ### Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving
@@ -21,11 +25,13 @@ redirect from:
     Yin Sun and Benjamin Cyr -- Journal of Communications and Networks, vol. 21, no. 3, pp. 204-219, June 2019
     <https://ieeexplore.ieee.org/document/8764465>{:target="_blank"}
 
+
 ## 2018
 
 * ### Information Aging through Queues: A Mutual Information Perspective
     Yin Sun, Benjamin Cyr - IEEE SPAWC Conference -- Special Session on the Age of Information, 2018  
     <https://ieeexplore.ieee.org/iel7/8424401/8445765/08445873.pdf>{:target="_blank"}
+
 
 
 
