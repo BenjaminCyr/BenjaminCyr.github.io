@@ -7,9 +7,14 @@ redirect from:
     - /publications.html
 ---
 
+
 ## 2020
 
-* ### T. Sugawara, B. Cyr, S. Rampazzi, D. Genkin, and K. Fu, “Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems,” 2020, pp. 2631–2648, Accessed: Aug. 24, 2020. [Online]. Available: https://www.usenix.org/conference/usenixsecurity20/presentation/sugawara.
+* ### Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems
+    T. Sugawara, B. Cyr, S. Rampazzi, D. Genkin, and K. Fu, -- Usenix Security, 2020 
+    <https://www.usenix.org/conference/usenixsecurity20/presentation/sugawara>{:target="_blank"}
+
+
 
 ## 2019
 
@@ -26,11 +31,14 @@ redirect from:
     <https://ieeexplore.ieee.org/document/8764465>{:target="_blank"}
 
 
+
 ## 2018
 
 * ### Information Aging through Queues: A Mutual Information Perspective
     Yin Sun, Benjamin Cyr - IEEE SPAWC Conference -- Special Session on the Age of Information, 2018  
     <https://ieeexplore.ieee.org/iel7/8424401/8445765/08445873.pdf>{:target="_blank"}
+
+
 
 
 
