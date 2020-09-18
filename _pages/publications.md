@@ -20,7 +20,7 @@ redirect from:
 
 * ### Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving
     Yulong Cao, Chaowei Xiao, Benjamin Cyr, Yimeng Zhou, Won Park, Sara Rampazzi, Qi Alfred Chen, Kevin Fu, Z. Morley Mao -- The 26th ACM Conference on Computer and Communications Security, 2019 
-    <https://arxiv.org/abs/1907.06826>{:target="_blank"}
+    <https://dl.acm.org/doi/10.1145/3319535.3339815>{:target="_blank"}
 
 * ### Low-Cost and Secure Firmware Obfuscation Method for Protecting Electronic Systems from Cloning
     Benjamin Cyr, Jubayer Mahmod, Ujjwal Guin - IEEE Internet of Things Journal, 2019  
