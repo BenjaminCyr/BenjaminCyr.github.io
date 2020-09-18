@@ -36,7 +36,7 @@ redirect from:
 
 * ### Information Aging through Queues: A Mutual Information Perspective
     Yin Sun, Benjamin Cyr - IEEE SPAWC Conference -- Special Session on the Age of Information, 2018  
-    <https://ieeexplore.ieee.org/iel7/8424401/8445765/08445873.pdf>{:target="_blank"}
+    <https://ieeexplore.ieee.org/document/8445873>{:target="_blank"}
 
 
 
