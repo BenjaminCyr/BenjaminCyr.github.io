@@ -14,6 +14,6 @@ For a quick look at my previous experiences, here is a link to my one-page Resum
 
 # Curriculum Vitae
 For an in-depth look at my previous experiences, here is a link to my full Curriculum Vitae: 
-## [Benjamin Cyr's CV](/assets/files/CyrCurriculumVitaeSep2020_2.pdf){:target="_blank"}
+## [Benjamin Cyr's CV](/assets/files/CyrCurriculumVitaeSep2020_3.pdf){:target="_blank"}
 
 
