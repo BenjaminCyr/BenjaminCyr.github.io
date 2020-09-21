@@ -6,8 +6,8 @@ main:
     url: /publications/
   - title: "Research Projects"
     url: /projects/
-  - title: "CV"
-    url: /assets/files/ResumeCyrSep2020.pdf
+  - title: "Resume/CV"
+    url: /cv/
   - title: "Posts"
     url: /categories/#research
   # - title: "Sample Collections"
