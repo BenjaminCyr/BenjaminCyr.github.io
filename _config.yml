@@ -93,7 +93,7 @@ analytics:
 # Site Author
 author:
   name             : "Benjamin Andrew Cyr"
-  avatar           : "assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/profile2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Ph.D. student at the University of Michigan. Researching the security of sensors in cyber-physical systems."
   location         : "Ann Arbor, Michigan, USA"
   email            : #"bencyr@umich.edu"
